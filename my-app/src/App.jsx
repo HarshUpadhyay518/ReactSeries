@@ -1,11 +1,17 @@
+import NetflixSeries from "./components/NetflixSeries";
+// import Profile from "./components/Profile";
+import "./components/Netflix.css";
 export const App = () =>{
-  return (
-    <div>
-      <img src="react_photo.jpg" alt="react_photo" 
-       width="40%" height="40%"/>
-      <h1>Hello and welcomer to react series</h1>
-      <h1>Nice to meet again</h1>
-      <p>Summary:Here we are learning the basics of react.</p>
-    </div>
-  )
+  return( 
+    <section className="container">
+      <h1 className="card-heading">List of best react series</h1>
+      <NetflixSeries/> 
+  {/* // return <Profile/>; */}
+    </section>
+  );
 };
+
+
+// Export and import: default,named and mixed
+// Looping in jsx : we use map
+// props in jsx

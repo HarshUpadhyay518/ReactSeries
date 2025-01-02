@@ -1,0 +1,43 @@
+[
+    {
+        "name" : "React Series",
+        "id" : "React-Series",
+        "img_url" : "/react_photo.jpg",
+        "intro" : "Hello and welcomer to react series",
+        "para" : "Nice to meet again",
+        "summary" : "Here we are learning the basics of react",
+        "lang" : "English/Hindi",
+        "watch_url" : "https://youtu.be/MV6R7wOIFDw"
+    },
+
+    {
+        "name" : "React Series",
+        "id" : "React-Series",
+        "img_url" : "/react_photo.jpg",
+        "intro" : "Hello and welcomer to react series",
+        "para" : "Nice to meet again",
+        "summary" : "Here we are learning the basics of react",
+        "lang" : "English/Hindi",
+        "watch_url" : "https://youtu.be/MV6R7wOIFDw"
+    },
+    {
+        "name" : "React Series",
+        "id" : "React-Series",
+        "img_url" : "/react_photo.jpg",
+        "intro" : "Hello and welcomer to react series",
+        "para" : "Nice to meet again",
+        "summary" : "Here we are learning the basics of react",
+        "lang" : "English/Hindi",
+        "watch_url" : "https://youtu.be/MV6R7wOIFDw"
+    },
+    {
+        "name" : "React Series",
+        "id" : "React-Series",
+        "img_url" : "/react_photo.jpg",
+        "intro" : "Hello and welcomer to react series",
+        "para" : "Nice to meet again",
+        "summary" : "Here we are learning the basics of react",
+        "lang" : "English/Hindi",
+        "watch_url" : "https://youtu.be/MV6R7wOIFDw"
+    }
+]
