@@ -1,5 +1,5 @@
 import seriesData from "../api/seriesData.json"
-import { SeriesCard } from "./SeriesCard";
+import { SeriesCard } from "./SeriesCard01";
 
 
 const NetflixSeries = () =>{
@@ -33,7 +33,7 @@ const NetflixSeries = () =>{
     <ul className="grid grid-three-cols">
         {
             seriesData.map((curElem) => (
-              <SeriesCard key={curElem.id} data = {curElem}/>
+              <SeriesCard key={curElem.id} currElement = {curElem}/>
             ))
         }
     </ul>
