@@ -4,8 +4,9 @@
 // import "./components/Netflix.module.css";
 // import { EventHandling } from "./components/EventHandling";
 // import { EventProps } from "./components/EventsProps";
-import { DerivedState } from './components/derivedState';
+// import { DerivedState } from './components/derivedState';
 import './components/EV.css';
+import { LiftingState } from './components/LiftStateUp';
 // import { EventPropagation } from "./components/EventPropagation";
 // import { State } from './components/hooks/State';
 
@@ -18,7 +19,8 @@ export const App = () =>{
       {/* <EventProps/> */}
       {/* <EventPropagation/> */}
       {/* <State/> */}
-      <DerivedState/>
+      {/* <DerivedState/> */}
+      <LiftingState/>
 
   {/* // return <Profile/>; */}
     </section>
@@ -34,3 +36,4 @@ export const App = () =>{
 // Event Propogation
 // React States : useState hook
 // Derived State in React
+// Lifting the state up in react
