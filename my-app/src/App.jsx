@@ -6,7 +6,8 @@
 // import { EventProps } from "./components/EventsProps";
 // import { DerivedState } from './components/derivedState';
 import './components/EV.css';
-import { LiftingState } from './components/LiftStateUp';
+// import { LiftingState } from './components/LiftStateUp';
+import { ToggleSwitch } from './projects/ToggleSwitch/ToggleSwitch';
 // import { EventPropagation } from "./components/EventPropagation";
 // import { State } from './components/hooks/State';
 
@@ -20,7 +21,8 @@ export const App = () =>{
       {/* <EventPropagation/> */}
       {/* <State/> */}
       {/* <DerivedState/> */}
-      <LiftingState/>
+      {/* <LiftingState/> */}
+      <ToggleSwitch/>
 
   {/* // return <Profile/>; */}
     </section>
@@ -37,3 +39,5 @@ export const App = () =>{
 // React States : useState hook
 // Derived State in React
 // Lifting the state up in react
+
+// Project : ToggleSwitch 
