@@ -7,9 +7,11 @@
 // import { DerivedState } from './components/derivedState';
 import './components/EV.css';
 // import { LiftingState } from './components/LiftStateUp';
-import { ToggleSwitch } from './projects/ToggleSwitch/ToggleSwitch';
+// import { ToggleSwitch } from './projects/ToggleSwitch/ToggleSwitch';
 // import { EventPropagation } from "./components/EventPropagation";
 // import { State } from './components/hooks/State';
+
+import { Todo } from "./projects/TodoWebsite/Todo";
 
 export const App = () =>{
   return( 
@@ -22,7 +24,8 @@ export const App = () =>{
       {/* <State/> */}
       {/* <DerivedState/> */}
       {/* <LiftingState/> */}
-      <ToggleSwitch/>
+      {/* <ToggleSwitch/> */}
+      <Todo/>
 
   {/* // return <Profile/>; */}
     </section>
@@ -40,4 +43,5 @@ export const App = () =>{
 // Derived State in React
 // Lifting the state up in react
 
-// Project : ToggleSwitch 
+// Project 1.0 : ToggleSwitch 
+// Project 1.1 : Todo App 
