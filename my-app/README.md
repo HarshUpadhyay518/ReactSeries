@@ -1,15 +1,25 @@
 # What we have learned in this series -->
+<br>
 // Export and import: default,named and mixed
+<br>
 // Looping in jsx : we use map
+<br>
 // props in jsx
+<br>
 // Event Handling
+<br>
 // Event Props : passing events as prop
+<br>
 // Event Propogation
+<br>
 // React States : useState hook
+<br>
 // Derived State in React
+<br>
 // Lifting the state up in react
 
-// Project 1.0 : ToggleSwitch 
+// Project 1.0 : ToggleSwitch
+<br> 
 // Project 1.1 : Todo App 
 
 // Keys in react very important
