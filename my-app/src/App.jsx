@@ -5,8 +5,10 @@
 // import { EventHandling } from "./components/EventHandling";
 // import { EventProps } from "./components/EventsProps";
 // import { DerivedState } from './components/derivedState';
-import './components/EV.css';
-import { ShortCircuitExample } from './components/ShortCircuitEvaluation';
+// import './components/EV.css';
+// import './index.css';
+import { RegistrationForm } from './components/hooks/RegistrationForm';
+// import { ShortCircuitExample } from './components/ShortCircuitEvaluation';
 // import { LiftingState } from './components/LiftStateUp';
 // import { ToggleSwitch } from './projects/ToggleSwitch/ToggleSwitch';
 // import { EventPropagation } from "./components/EventPropagation";
@@ -27,7 +29,9 @@ export const App = () =>{
       {/* <LiftingState/> */}
       {/* <ToggleSwitch/> */}
       {/* <Todo/> */}
-      <ShortCircuitExample/>
+      {/* <ShortCircuitExample/> */}
+
+      <RegistrationForm/>
 
   {/* // return <Profile/>; */}
     </section>

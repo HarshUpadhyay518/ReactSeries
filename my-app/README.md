@@ -76,3 +76,6 @@ It is a fundamental hook in react that allows you to add state management to you
 * Event Handling : Changes are directly handled by DOM events(onChange,onBlur,etc.).
 
 * Accessing Form Data : Form data is accessed through refs or DOM traversal methods,not through react state.
+
+
+<!-- Handling Forms in react  -->
