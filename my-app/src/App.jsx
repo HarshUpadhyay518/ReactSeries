@@ -7,7 +7,9 @@
 // import { DerivedState } from './components/derivedState';
 // import './components/EV.css';
 // import './index.css';
-import { RegistrationForm } from './components/hooks/RegistrationForm';
+import { ContactForm } from './components/PracticeForm/ContactForm';
+// import { LoginForm } from './components/PracticeForm/LoginForm';
+// import { RegistrationForm } from './components/hooks/RegistrationForm';
 // import { ShortCircuitExample } from './components/ShortCircuitEvaluation';
 // import { LiftingState } from './components/LiftStateUp';
 // import { ToggleSwitch } from './projects/ToggleSwitch/ToggleSwitch';
@@ -31,7 +33,9 @@ export const App = () =>{
       {/* <Todo/> */}
       {/* <ShortCircuitExample/> */}
 
-      <RegistrationForm/>
+      {/* <RegistrationForm/> */}
+      {/* <LoginForm/> */}
+      <ContactForm/>
 
   {/* // return <Profile/>; */}
     </section>
