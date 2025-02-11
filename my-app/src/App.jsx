@@ -16,7 +16,9 @@
 // import { EventPropagation } from "./components/EventPropagation";
 // import { State } from './components/hooks/State';
 
-import { ReactUseEffect } from "./components/hooks/UseEffect";
+// import { ReactUseEffect } from "./components/hooks/UseEffect";
+import { CleanUpFunction } from "./components/hooks/UseEffect/CleanUpFunction/CleanUpFunction";
+// import { UseEffectExample } from "./components/PracticeForm/UseEffectExample";
 
 // import { Todo } from "./projects/TodoWebsite/Todo";
 
@@ -40,7 +42,9 @@ export const App = () =>{
       {/* <RegistrationForm/> */}
       {/* <LoginForm/> */}
       {/* <ContactForm/> */}
-      <ReactUseEffect/>
+      {/* <ReactUseEffect/> */}
+      {/* <UseEffectExample/> */}
+      <CleanUpFunction/>
 
   {/* // return <Profile/>; */}
     </section>

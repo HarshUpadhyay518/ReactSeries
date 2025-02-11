@@ -1,0 +1,74 @@
+/* Global styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Full-screen layout */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+}
+
+/* Counter box with glass effect */
+.counter {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 40px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+    width: 350px;
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+/* Title */
+p {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 15px;
+}
+
+/* Odometer effect */
+.odometer {
+    font-size: 60px;
+    font-weight: bold;
+    color: #ffcc29;
+    text-shadow: 0px 0px 10px rgba(255, 204, 41, 0.8);
+    margin: 15px 0;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Subtitle */
+.title {
+    font-size: 18px;
+    color: #f0f0f0;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 1.5;
+}
+
+/* Button */
+.btn {
+    background: #ffcc29;
+    color: #1e3c72;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-top: 20px;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+    background: #ffb900;
+    transform: scale(1.05);
+}
