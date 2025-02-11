@@ -79,3 +79,20 @@ It is a fundamental hook in react that allows you to add state management to you
 
 
 <!-- Handling Forms in react  -->
+
+* useEffect hook in react : It is used fotr handling side effects in functional components.
+
+* Syntax : useEffect(() => {
+               // Your side effect code here
+               
+               return () =>{
+                // Cleanup code here(optional)
+               };
+            },[dependencies]);
+
+* Note : 
+1. Initial Render : When the component mounts useEffect can run its effect function to perform operations like data fetching.
+
+2. Dependencies : The second argument, an array of dependencies,which determines when the effect should re-run. If any value in this array changes,the effect will re-run.
+
+3. CleanUp : useEffect can return a cleanup function to clean up after the effect,such as unusubscribing from an event or clearing a timer.

@@ -7,7 +7,7 @@
 // import { DerivedState } from './components/derivedState';
 // import './components/EV.css';
 // import './index.css';
-import { ContactForm } from './components/PracticeForm/ContactForm';
+// import { ContactForm } from './components/PracticeForm/ContactForm';
 // import { LoginForm } from './components/PracticeForm/LoginForm';
 // import { RegistrationForm } from './components/hooks/RegistrationForm';
 // import { ShortCircuitExample } from './components/ShortCircuitEvaluation';
@@ -16,7 +16,11 @@ import { ContactForm } from './components/PracticeForm/ContactForm';
 // import { EventPropagation } from "./components/EventPropagation";
 // import { State } from './components/hooks/State';
 
+import { ReactUseEffect } from "./components/hooks/UseEffect";
+
 // import { Todo } from "./projects/TodoWebsite/Todo";
+
+
 
 export const App = () =>{
   return( 
@@ -35,7 +39,8 @@ export const App = () =>{
 
       {/* <RegistrationForm/> */}
       {/* <LoginForm/> */}
-      <ContactForm/>
+      {/* <ContactForm/> */}
+      <ReactUseEffect/>
 
   {/* // return <Profile/>; */}
     </section>
