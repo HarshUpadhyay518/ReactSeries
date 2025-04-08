@@ -16,11 +16,17 @@
 // import { EventPropagation } from "./components/EventPropagation";
 // import { State } from './components/hooks/State';
 
+import { ParentComponent } from "./components/PropDrilling";
+
 // import { ReactUseEffect } from "./components/hooks/UseEffect";
-import { CleanUpFunction } from "./components/hooks/UseEffect/CleanUpFunction/CleanUpFunction";
+// import { CleanUpFunction } from "./components/hooks/UseEffect/CleanUpFunction/CleanUpFunction";
 // import { UseEffectExample } from "./components/PracticeForm/UseEffectExample";
 
 // import { Todo } from "./projects/TodoWebsite/Todo";
+// eslint-disable-next-line no-unused-vars
+// import {UseRefHook} from "./components/hooks/useRefHook/demo";
+// import { ForwardRefs } from "./components/hooks/useRefHook/ForwardRefs";
+// import {UseId} from "./components/hooks/UseID/index.jsx";
 
 
 
@@ -44,7 +50,11 @@ export const App = () =>{
       {/* <ContactForm/> */}
       {/* <ReactUseEffect/> */}
       {/* <UseEffectExample/> */}
-      <CleanUpFunction/>
+      {/* <CleanUpFunction/> */}
+      {/* <UseRefHook/> */}
+      {/* <ForwardRefs/> */}
+      {/* <UseId/> */}
+      <ParentComponent/>
 
   {/* // return <Profile/>; */}
     </section>
