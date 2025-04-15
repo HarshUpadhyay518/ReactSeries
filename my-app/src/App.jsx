@@ -16,7 +16,10 @@
 // import { EventPropagation } from "./components/EventPropagation";
 // import { State } from './components/hooks/State';
 
-import { ParentComponent } from "./components/PropDrilling";
+import { BioProvider } from "./components/hooks/ContextAPI";
+import { Home } from "./components/hooks/ContextAPI/home";
+
+// import { ParentComponent } from "./components/PropDrilling";
 
 // import { ReactUseEffect } from "./components/hooks/UseEffect";
 // import { CleanUpFunction } from "./components/hooks/UseEffect/CleanUpFunction/CleanUpFunction";
@@ -32,31 +35,36 @@ import { ParentComponent } from "./components/PropDrilling";
 
 export const App = () =>{
   return( 
-    <section className="container">
-      {/* <h1 className="card-heading">List of best react series</h1> */}
-      {/* <NetflixSeries/>  */}
-      {/* <EventHandling/> */}
-      {/* <EventProps/> */}
-      {/* <EventPropagation/> */}
-      {/* <State/> */}
-      {/* <DerivedState/> */}
-      {/* <LiftingState/> */}
-      {/* <ToggleSwitch/> */}
-      {/* <Todo/> */}
-      {/* <ShortCircuitExample/> */}
+    <>
+    <BioProvider>
+      <Home />
+    </BioProvider>
+    </>
+    // <section className="container">
+      // {/* <h1 className="card-heading">List of best react series</h1> */}
+      // {/* <NetflixSeries/>  */}
+      // {/* <EventHandling/> */}
+      // {/* <EventProps/> */}
+      // {/* <EventPropagation/> */}
+      // {/* <State/> */}
+      // {/* <DerivedState/> */}
+      // {/* <LiftingState/> */}
+      // {/* <ToggleSwitch/> */}
+      // {/* <Todo/> */}
+      // {/* <ShortCircuitExample/> */}
 
-      {/* <RegistrationForm/> */}
-      {/* <LoginForm/> */}
-      {/* <ContactForm/> */}
-      {/* <ReactUseEffect/> */}
-      {/* <UseEffectExample/> */}
-      {/* <CleanUpFunction/> */}
-      {/* <UseRefHook/> */}
-      {/* <ForwardRefs/> */}
-      {/* <UseId/> */}
-      <ParentComponent/>
+      // {/* <RegistrationForm/> */}
+      // {/* <LoginForm/> */}
+      // {/* <ContactForm/> */}
+      // {/* <ReactUseEffect/> */}
+      // {/* <UseEffectExample/> */}
+      // {/* <CleanUpFunction/> */}
+      // {/* <UseRefHook/> */}
+      // {/* <ForwardRefs/> */}
+      // {/* <UseId/> */}
+      // {/* <ParentComponent/> */}
 
-  {/* // return <Profile/>; */}
-    </section>
+  // {/* // return <Profile/>; */}
+    // </section>
   );
 };
